@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏦 Vault Finance Platform
 
-## Getting Started
+## 🔗 Live Link
+<a href="https://vault-gamma-cyan.vercel.app/" alt="live link">
+  Vault
+</a>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📜 Project Summary
+Vault is a modern, full-featured personal finance management platform designed to help users effectively track their transactions, manage their budgets, and gain intelligent insights into their financial habits. The platform blends traditional financial tools with cutting-edge AI and interactive UI features to create a seamless and smart money-management experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔑 Core Functionality
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 💳 Transaction Management
+- Users can **add**, **edit**, **delete**, and **view** transactions.
+- Select individual or all transactions at once for bulk operations.
+- Each selection action logs the transaction ID for tracking.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔍 Advanced Filtering Options
+Transactions can be filtered dynamically based on:
+- **Search keywords**
+- **Transaction type** (income/expense)
+- **Recurrence** (recurring/non-recurring)
 
-## Learn More
+### 📊 Budget Tracking
+- Users can set monthly budgets and receive alerts when nearing or exceeding these limits, helping maintain financial discipline.
 
-To learn more about Next.js, take a look at the following resources:
+### 🤖 AI-Powered Receipt Scanning
+- Integrated with the **Google Gemini API**, allowing users to upload physical receipts.
+- The AI automatically extracts and fills transaction details, reducing manual entry and improving accuracy.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📈 Monthly Financial Reports & Insights
+- The platform generates visual and textual reports summarizing monthly financial activity, including spending insights and suggestions powered by AI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📉 Data Visualization
+- Users can understand their spending patterns through visually rich graphs and charts, identifying overspending categories to make informed financial decisions.
 
-## Deploy on Vercel
+### 📱 Responsive and Intuitive UI
+- Built with responsive design in mind, the interface works smoothly across mobile and desktop devices, offering a clean and user-friendly experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔒 Security and Performance
+- Integrates **ArcJet** for rate limiting, bot protection, and API abuse prevention.
+- Uses **Clerk** for secure user authentication.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## 🧱 Technology Stack
+
+- Next.js
+- ShadCN UI
+- Prisma (ORM)
+- Supabase - PostgreSQL (database)
+- Google Gemini API (receipt OCR + insights)
+- ArcJet (security)
+- Resend (budget usage notifications and montly insights)
+- Clerk (authentication)
+- Vercel (deployment)
+
+## ⚙️ Development Setup
+The project uses modern developer tooling, including environment variable setup for sensitive keys, Prisma for managing the database schema, and Vercel for deployment. The backend can optionally be hosted on platforms like Render or Heroku.
+
+## 👥 Contributions & Licensing
+Vault is an open-source project licensed under the **MIT License**. Contributions are encouraged via pull requests or issue reports, promoting community involvement and transparency.
+
+## 🎯 Conclusion
+Vault Finance Platform is a smart, secure, and scalable solution for anyone looking to take control of their finances. Its blend of manual and AI-driven features, alongside real-time visual feedback and an elegant UI, positions it as a powerful tool in the personal finance space.

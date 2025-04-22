@@ -42,9 +42,9 @@ const HeroSection = () => {
               Get Started
             </Button>
           </Link>
-          <Link href="https://www.youtube.com/roadsidecoder">
+          <Link href="https://github.com/sashishekhar/Vault--AI-Finance-App">
             <Button size="lg" variant="outline" className="px-8">
-              Watch Demo
+              ReadMe.md
             </Button>
           </Link>
         </div>

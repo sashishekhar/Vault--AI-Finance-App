@@ -34,16 +34,30 @@ export function BudgetProgress({ initialBudget, currentExpenses }) {
     ? (currentExpenses / initialBudget.amount) * 100
     : 0;
 
+/*************  ✨ Codeium Command 🌟  *************/
+  /**
+   * Handle the update budget action
+   */
   const handleUpdateBudget = async () => {
+    /**
+     * Parse the new budget amount
+     */
     const amount = parseFloat(newBudget);
 
+    /**
+     * Check for invalid input
+     */
     if (isNaN(amount) || amount <= 0) {
       toast.error("Please enter a valid amount");
       return;
     }
 
+    /**
+     * Call the API to update the budget
+     */
     await updateBudgetFn(amount);
   };
+/******  cd2ef132-3720-44c0-9621-7e17d89d921c  *******/
 
   const handleCancel = () => {
     setNewBudget(initialBudget?.amount?.toString() || "");

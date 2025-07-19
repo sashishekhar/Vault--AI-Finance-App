@@ -168,8 +168,9 @@ const LandingPage = () => {
                       </div>
                     </div>
                     <p className="text-sm text-gray-700 italic">
-                      "{testimonial.quote}"
+                      &ldquo;{testimonial.quote}&rdquo;
                     </p>
+
                   </CardContent>
                 </Card>
               </motion.div>

@@ -155,13 +155,7 @@ const LandingPage = () => {
                 <Card className="p-6 bg-gray-50 rounded-xl border shadow">
                   <CardContent className="space-y-4">
                     <div className="flex items-center">
-                      <Image
-                        src={testimonial.image}
-                        alt={testimonial.name}
-                        width={48}
-                        height={48}
-                        className="rounded-full"
-                      />
+                      
                       <div className="ml-4">
                         <p className="font-semibold">{testimonial.name}</p>
                         <p className="text-sm text-gray-500">{testimonial.role}</p>
